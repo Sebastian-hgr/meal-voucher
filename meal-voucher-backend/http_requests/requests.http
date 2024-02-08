@@ -1,0 +1,26 @@
+###
+
+GET http://localhost:8080/api/qrcodes/[TRAGE HIER EINE ID AUS DER DB EIN]
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/qrcodes/52ff7a66-41d6-4fdb-8ba1-2f4e8f5b9662?cancel=true
+Accept: application/json
+
+###
+
+POST http://localhost:8080/api/qrcodes?value=3&no=15
+Accept: text/plain
+
+###
+
+GET http://localhost:8080/api/qrcodes
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/qrcodes/startup
+Content-Type: application/json
+
+###

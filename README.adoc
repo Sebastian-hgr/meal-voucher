@@ -1,0 +1,27 @@
+= Meal Voucher | Sebastian Hager
+
+An application to create, cancel and list QR-CODES.
+
+'''
+
+== Startup
+* start backend
+**  move to meal-voucher-backend folder
+*** run *./derbydb-create.sh*
+*** run *./derbydb-start.sh*
+*** run *./mvnw clean quarkus:dev*
+
+* start frontend
+** make sure you have installed
+*** node.js
+*** npm
+*** @angular/cli
+** move to meal-voucher-frontend
+*** run *npm install*
+*** run *npm start*
+
+
+== Technologies
+
+* Quarkus
+* Angular
