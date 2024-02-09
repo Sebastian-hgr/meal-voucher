@@ -9,6 +9,7 @@ An application to create, cancel and list QR-CODES.
 **  move to meal-voucher-backend folder
 *** run *./derbydb-create.sh*
 *** run *./derbydb-start.sh*
+*** edit the file *template.env* with your config
 *** run *./mvnw clean quarkus:dev*
 
 * start frontend
